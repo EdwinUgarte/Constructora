@@ -20,7 +20,7 @@ import com.ugarte.apirest.constructora.Models.service.IEmpleadoService;
 import com.ugarte.apirest.constructora.Models.service.IProyectoService;
 
 
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin
 @RestController
 @RequestMapping("/api")
 public class AppController {
